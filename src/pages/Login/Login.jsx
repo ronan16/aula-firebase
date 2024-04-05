@@ -22,13 +22,13 @@ export default function Login({ navigation }) {
                 const errorCode = error.code;
                 const errorMessage = error.message;
             });
-
     };
 
 
     return (
         <View style={styles.container}>
-            <Text>EXEMPLO DE GITHUB  - 2</Text>
+            <Text>EXEMPLO DE GITHUB  - 3</Text>
+
             <Text style={styles.titulo}>Login</Text>
             <TextInput
                 style={styles.entradaTexto}
