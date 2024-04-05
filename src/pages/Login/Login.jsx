@@ -27,7 +27,7 @@ export default function Login({ navigation }) {
 
     return (
         <View style={styles.container}>
-            <Text>EXEMPLO DE GITHUB  - 3</Text>
+            <Text>EXEMPLO DE GITHUB  - Pull Request</Text>
 
             <Text style={styles.titulo}>Login</Text>
             <TextInput
