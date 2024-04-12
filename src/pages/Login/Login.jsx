@@ -27,7 +27,7 @@ export default function Login({ navigation }) {
 
     return (
         <View style={styles.container}>
-            <Text>EXEMPLO DE GITHUB!!!</Text>
+            <Text>EXEMPLO DE GITHUB! - AULA</Text>
 
             <Text style={styles.titulo}>Login</Text>
             <TextInput
