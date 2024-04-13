@@ -15,6 +15,7 @@ export default function CadUsuario({ navigation }) {
         uf: '',
         idade: 10 // Valor inicial da idade
     })
+    alert('Este alert é um teste');
 
     const atualizaUsuarioState = (valor, chave) => {
         setUsuario(prevUsuario => ({ ...prevUsuario, [chave]: valor }));
