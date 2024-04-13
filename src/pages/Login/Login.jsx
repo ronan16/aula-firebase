@@ -27,7 +27,7 @@ export default function Login({ navigation }) {
 
     return (
         <View style={styles.container}>
-  
+            <Text>TESTE MIRIANY TESTE TESTE</Text>
             <Text>EXEMPLO DE GITHUB! - AULA</Text>
 
 
