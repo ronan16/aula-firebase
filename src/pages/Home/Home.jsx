@@ -32,7 +32,7 @@ export default function Home({ navigation }) {
                 </Text>
             ))}
             <Pressable style={styles.botao} onPress={buscarTodos}>
-                <Text style={styles.textoBotao}>Listar</Text>
+                <Text style={styles.textoBotao}>Listar TESTE TESTE TESTE</Text>
             </Pressable>
             <Pressable style={styles.botao} onPress={() => navigation.navigate('Login')}>
                 <Text style={styles.textoBotao}>Deslogar</Text>
