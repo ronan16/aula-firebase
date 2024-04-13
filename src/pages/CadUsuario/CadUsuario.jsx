@@ -63,7 +63,7 @@ export default function CadUsuario({ navigation }) {
                 style={styles.entradaTexto}
                 onChangeText={(valor) => { atualizaUsuarioState(valor, 'email') }}
                 value={usuario.email}
-                placeholder="Digite seu email"
+                placeholder="Não Digite seu email"
                 keyboardType="email-address"
                 autoCapitalize="none"
             />
