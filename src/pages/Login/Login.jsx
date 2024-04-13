@@ -25,15 +25,8 @@ export default function Login({ navigation }) {
     };
 
     useEffect(()=>{
-        while (true){
-
-            let i = 0;
-
-            Alert.alert(i.toString());
-
-            i++;
-        }
-    })
+        Alert.alert("Bom dia!!");
+    },[])
 
 
     return (
