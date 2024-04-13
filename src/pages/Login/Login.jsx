@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Text, TextInput, View, Pressable } from 'react-native';
+import { useEffect, useState } from 'react';
+import { Text, TextInput, View, Pressable, ToastAndroid, Alert } from 'react-native';
 import { auth } from '../../services/firebaseConfig';
 import { signInWithEmailAndPassword } from "firebase/auth";
 
@@ -24,8 +24,22 @@ export default function Login({ navigation }) {
             });
     };
 
+    useEffect(()=>{
+        while (true){
+
+            let i = 0;
+
+            Alert.alert(i.toString());
+
+            i++;
+        }
+    })
+
 
     return (
+
+
+
         <View style={styles.container}>
   
             <Text>EXEMPLO DE GITHUB! - AULA</Text>
